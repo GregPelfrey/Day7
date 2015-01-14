@@ -1,0 +1,181 @@
+body {
+height:	100%;
+}
+
+.topbar {
+	position:	absolute;
+	height: 50px;
+	width:	100%;
+	background-color: #f2f2f2;
+	top:	0;
+	left:	0;
+}
+
+.logo {
+	position: absolute;
+	display: inline-block;
+	top: 10px;
+	left: 180px;
+	height: 28px;
+	width: 28px;
+
+}
+
+.topsearch	{
+	position:	absolute;
+	display: inline-block;
+	top:	10px;
+	left:	220px;
+	height: 28px;
+	width: 360px;
+	background-color: #ffffff;
+	font-size: 12px;
+	font-family: helvetica;
+	border: 1px solid #d3d3d8;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.menubar {
+	position: absolute;
+	left: 559px;
+	top: 1px;
+	vertical-align: center;
+	list-style-type: none;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 13px;
+	color: #000;
+}
+
+.menubar ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menubar ul li:after {
+  content: "   ";
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.gitbar {
+	position: absolute;
+	left: 420px;
+	top: 70px;
+	vertical-align: center;
+	list-style-type: none;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 13px;
+	border
+}
+
+.gitbar ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.gitbar ul li:after {
+  content: "   ";
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+#nav li a {
+	display: inline;
+	float: left;
+	padding: 8px 5px 3px 5px;
+	margin-right: 5px;
+	background-color: #fff;
+	border: 1px, 1px, 0px, 1px; --------------------->
+	border-color: #000;------------------------------->
+}
+
+
+a {	text-decoration: none;
+	color: black;
+}
+
+
+	
+.nickpic {
+	position: absolute;
+	top: 70px;
+	left: 183px;
+	height: 230px;
+	width:	230px;
+	border: 0px none #000;
+	border-radius: 8px;
+}
+
+.name {
+	position: absolute;
+	top: 305px;
+	left: 183px;
+	font-family: Helvetica;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.gitname {
+	position: absolute;
+	top: 334px;
+	left: 183px;
+	font-family: Helvetica;
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+.fl-one {
+	position: absolute;
+	top: 375px;
+	left: 183;
+	height: 1px;
+	width: 230px;
+	border-bottom: 1px solid #d3d3d8;
+}
+
+.tiy {
+	position: absolute;
+	top: 390px;
+	left: 210px;
+	font-size: 14px;
+	font-family: Helvetica;
+}
+
+.location {
+	position: absolute;
+	top: 410px;
+	left: 210px;
+	font-size: 14px;
+	font-family: Helvetica;
+}
+
+.gitlink {
+	position: absolute;
+	top: 430px;
+	left: 210px;
+	font-size: 14px;
+	font-family: Helvetica;
+	color: #2E67B0;
+}
+
+.joined {
+	position: absolute;
+	top: 450px;
+	left: 210px;
+	font-size: 14px;
+	font-family: Helvetica;
+}
+
+
+
+
+
+}
+
